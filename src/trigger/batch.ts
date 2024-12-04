@@ -44,7 +44,11 @@ export const evaluateModels = schemaTask({
       },
       {
         task: evaluateAnthropic,
-        payload: { prompt: evaluation.prompt, evalId: evaluation.id },
+        payload: {
+          prompt: evaluation.prompt,
+          evalId: evaluation.id,
+          settings: { cacheControl: false },
+        },
         options: {
           tags: ["anthropic", `eval:${evaluation.id}`],
         },
