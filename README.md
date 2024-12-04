@@ -1,5 +1,7 @@
 ## Trigger.dev full-stack batch trigger demo
 
+https://github.com/user-attachments/assets/daaf620b-a18b-4de1-bc37-766fa00854e2
+
 This demo is a full stack example that uses the following:
 
 - A [Next.js](https://nextjs.org/) app with [Prisma](https://www.prisma.io/) for the database.
